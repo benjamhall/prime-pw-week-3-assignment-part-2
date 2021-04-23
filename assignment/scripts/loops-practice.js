@@ -32,8 +32,8 @@ console.log('count from 3 to 5');
 //   - Which part of the example loop do you need to change to do this?
 console.log('count even numbers from 2 to 10 (2, 4, 6, 8, 10):');
 
-// You need to start i at 3, while i < 11 and change i++ to i+=2. The for loop would look like:
-// for(let i=3; i<11; i+=2){
+// You need to start i at 2, while i < 10 and change i++ to i+=2. The for loop would look like:
+// for(let i=2; i<10; i+=2){
 //  console.log(i);
 // }
 
@@ -71,7 +71,7 @@ while(count<stars.length){
 let index = 0;
 const max = 6;
 while (index < max){
-  console.log('count from 0 to 5');
+  console.log('the numbers from 0 to 5');
   index ++;
 }
 
@@ -81,5 +81,5 @@ console.log('count backwards from 10 to 5');
 let countdown = 10;
 while (countdown > 4){
   console.log('count backwards from 10 to 5');
-  countdown ++;
+  countdown --;
 }
